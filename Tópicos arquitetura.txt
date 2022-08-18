@@ -1,0 +1,88 @@
+Arquitetura de software
+	O que é?
+		Abstração
+	
+	Para que serve?
+		Qualidade do software
+	
+	Como aplicar?
+		Clássica:
+		
+		Moderna:
+		
+		
+		
+		
+		
+		
+Modelo cascata de Desenvolvimento de software
+	requirements/analysis - Requisitos para o software
+		Design - Modelagem
+			Coding - Código
+				Testing - Testar o software
+					Maintenance - Entrega do produto após 1 ano da solicitação
+					
+					
+Modelo espiral: Entrega de versões para o cliente após cada desenvolvimento e teste (ciclo);
+	
+Modelo de Processo unificado: Fases dividas em inception, elaboration, construction e transition,
+implicando a iniciação em diversos departamentos.
+
+	
+	
+	Manifesto para desenvolvimento Ágil de Software
+	
+	4 valores
+		1. Os indivíduos e suas interações acima de procedimentos e ferramentas;
+		2. O funcionamento do software acima de documentação abrangente;
+		3. A colaboração com o cliente acima da negociação e contrato;
+		4. A capacidade de resposta a mudanças acima de um plano pré-estabelecido;
+		
+	12 princípios
+		1. Nossa maior prioridade é satisfazer o cliente através da entrega contínua e adiantada de software com valor agregado.
+		2. Mudanças nos requisitos são bem-vindas, mesmo tardiamente no desenvolvimento. Processos ágeis tiram vantagem das mudanças visando vantagem competitiva para o cliente.
+		3. Entregar frequentemente software funcionando, de poucas semanas a poucos meses, com preferência à menor escala de tempo.
+		4. Pessoas de negócio e desenvolvedores devem trabalhar diariamente em conjunto por todo o projeto.
+		5. Construa projetos em torno de indivíduos motivados. Dê a eles o ambiente e o suporte necessário e confie neles para fazer o trabalho.
+		6. O método mais eficiente e eficaz de transmitir informações para e entre uma equipe de desenvolvimento é através de conversa face a face.
+		7. Software funcionando é a medida primária de progresso.
+		8. Os processos ágeis promovem desenvolvimento sustentável. Os patrocinadores,desenvolvedores e usuários devem ser capazes de manter um ritmo constante indefinidamente.
+		9. Contínua atenção à excelência técnica e bom design aumenta a agilidade.
+		10. Simplicidade – a arte de maximizar a quantidade de trabalho não realizado – é essencial.
+		11. As melhores arquiteturas, requisitos e designs emergem de equipes auto-organizáveis.
+		12. Em intervalos regulares, a equipe reflete sobre como se tornar mais eficaz e então refina e ajusta seu comportamento de acordo.
+		
+		
+Modelo de Granularidade Arquitetural
+	Arquitetura de soluções: reutilização em nível de infraestrutura. Podendo ter uma visão de MACRO ou MICRO.
+	
+	Soluções -> Sistemas: SistemaA, SistemaB, SistemaC;
+	Sistema Distribuído: Software1, Software2, Software3;
+	
+	Software
+		Arquitetura de software: reutilização no núcleo do software.
+		
+		Príncipios| Bibliotecas
+		Padrões   | Frameworks
+		Regras    | Componentes
+	
+	
+	Em nível de soluções (sistemas):
+		1. Arquitetura distribuída;
+		2. Arquitetura em camadas (tiers);
+		3. Arquitetura orientada a serviços;
+		4. Arquitetura orientada a eventos/mensagens;
+		5. Arquitetura de microsserviços;
+		6. Computação em nuvem (IaaS/PaaS);
+		7. Integração e entregas contínuas (CI/DI);
+		8. Integração de sistemas;
+		9. Conteinerização.
+		
+	Em nível de software:
+		1. Padrões de projeto;
+		2. Arquitetura e programação modular;
+		3. Arquitetura em camadas MVC (layers);
+		4. Desenvolvimento voltado a testes (TDD);
+		5. Modelagem de domínio (DDD).
+
+											
