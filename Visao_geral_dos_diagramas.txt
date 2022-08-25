@@ -1,0 +1,68 @@
+Modelagem Arquitetural clássica("4+1").
+	
+	Structure view: compenents,packages, interfaces (visão estática);
+	Development view: versionamento do código, DevOps
+	Behaviour view: Dinâmica 
+	Deployment view: infraestrutura
+	
+Principal - Visão funcional (como será o funcionamento do sistema): Stakeholders and use cases view;
+	
+	Processo unificado (UP): 
+		|
+		|--► Rational Unified Process (RUP): Criada com intuito de orientar o desenvolvimento de um programa;
+		|
+		|--► Linguagem de modelagem unificada (UML): UML é uma representação gráfica de modelo de um sistema em projeto, implementação ou já existente.
+				Define dois tipos de diagramas: diagramas de estrutura e de comportamento;
+		
+		
+		
+Roteiro de aprendizado na arquitetura de Software
+	
+	Visão Funcional
+	1º infraestrutura
+	2º DevOps
+	3º Estática
+	4º Dinâmica	
+
+
+Software -► Sistema?? -► Funcionalidades?? -► para construir a visão funcional.
+	
+	Sub-sistemas ja existente como base
+		CMS Content Management System (Sistema de gerenciamento de conteúdo);
+		e-commerce
+		rede-social
+		chat
+		
+	A partir dos sistemas já existentes, definir quais as funcionalidades príncipais??
+		Mapeamento das funcionalidades abaixo:
+			1º- Realizar venda;
+			2º- Relacionar usuários;
+			3º- Enviar/receber mensagem instantânia;
+			4º- Realizar postagem;
+			5º- Consultar produto;
+			6º- Realizar pagamento;
+			7º- Gerenciar conteúdo;
+			8º- Armazenamento de mídias;
+		
+
+Modelagem - Include(obrigatório) - Extends(opcional)
+	Escopo
+			
+		|--►Realizar venda; -------------►Controle de estoque
+usuários|--►Relacionar usuários;
+		|--►Enviar mensagem;
+		|--►Realizar postagem;-----------|	
+										 |-►Extends
+										 ▼
+								Armazenamento de mídias;
+										 ▲
+		|--►Consultar produto;			 |
+Usuários|--►Realizar pagamento;			 |
+	▲	|--►Gerenciar conteúdo;----------|
+	|
+	|
+	|
+Administrador	
+
+
+Extrair das funcionalidades o funcionamentodo sistema (API,comportamento e/ou quais sistemas utilizados);
