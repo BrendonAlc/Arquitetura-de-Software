@@ -1,0 +1,44 @@
+Arquitetura em camadas
+	Arquitetura monolítica ou centralizada (2 camadas físicas): aplicações, dados (texto) chamado de mainframe com ínicio na década de 1960 à 1990;
+		1(uma) camada física e 1(uma) camada lógica;
+		
+		
+**Modelo Arquitetural Distríbuida**
+	Arquitetura Cliente-Servidor(camadas físicas): Cliente - Servidor década de 1990 e 2000, obtendo 2 camadas físicas e 2 camadas lógicas;
+		Processamento ocorre em diversos processamentos e computadores;
+		
+		
+	Arquitetura 3 camadas (física): Modelo com ínicio em meados do ano de 2000 à 2010, tendo 3 camadas físicas e 2 lógicas.
+	
+		cliente (interface-gráfica)►
+		cliente	(interface-gráfica)► Aplicação(lógica de negócio) ► banco de dados
+		cliente	(interface-gráfica)►
+		
+		Físico - Lógico
+		Cliente "magro" 
+		Servidor de aplicações = Parte do processamento é utilizado para renderização de User interface;
+		Servidor de Dados = processamento para dados;
+		
+		
+	Arquitetura 3 camadas: JAVA EE
+	
+		Client Machine ----->	Client Tier
+						|--->	Web Tier
+		JAVA EE Server--|
+						|--->	Business Tier
+		Data Base Server --->	EIS Tier
+		
+	
+	Arquitetura n camadas: Lógico. 4 camadas lógicas.
+	
+	Front-End - Apresentação: Apresentação do projeto visual; 
+			|--> Serviços: Poderá acessar dependência da apresentação;
+	Back-End|--> Domínio: Camada de domínio deve ser protegida, não criando dependência para a mesma;
+			|--> Persistência: Não pode acessar dependências da camada de domínio;
+
+
+Arquitetura de Microserviços
+	Arquitetura monolítica: User inteface > Business Logic > Data Access Layer > < DB
+	Arquitetura microserviços: 
+
+			
